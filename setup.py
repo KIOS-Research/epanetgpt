@@ -28,7 +28,9 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Chat with your epanet file. Suggest code for simulation.",
+    description="epanetgpt is a Python package designed to enable users to interact with their EPANET input files "
+                "through natural language conversations. Inspired by pdfgpt, its objective is to suggest/run code "
+                "snippets.",
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
